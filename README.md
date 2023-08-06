@@ -36,12 +36,14 @@ RepoReport is a powerful tool designed to provide valuable insights about any Gi
 4. Click the "Get Statistics" button, and within seconds, RepoReport will display all the essential metrics and insights.
 
 5. Evaluate the provided information to determine whether the repository aligns with your interests and is beginner-friendly.
-
+   
 ### Project Media
 ![Screenshot (126)](https://github.com/PurviSaini/RepoReport/assets/101940722/c1857d38-8447-4d9e-bc6a-d7e0a7081779)
 <br>
 ![Screenshot (127)](https://github.com/PurviSaini/RepoReport/assets/101940722/1b2c63a9-6d88-4719-bdbb-059841c7229a)
 
+### Project Demo
+<a href="https://www.youtube.com/watch?v=9DyPeRZiW6U" traget="_blank">Video Demo </a>
 
 ### License
 
