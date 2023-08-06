@@ -108,7 +108,8 @@ function fetchRepoStats() {
               statsContainer.innerHTML += `
                   <div class="card container-fluid m-2 gradient-border bg-dark" >
                       <div class="card-body">
-                        <h5 class="card-title text-center dark-font fst-italic" style="color: gray;">${key}</h5>
+                        <h5 class="card-title text-center dark-font fst-italic" style="color: gray;"> </h5> 
+                        <h5 class="card-title text-center dark-font fst-italic" style="color: gray;"> <img src="img/${key}.png" alt="logo" width="30px"> ${key} </h5> 
                         <p class="card-text fs-3 fw-bold text-center">${obj[key]}</p>
                       </div>  
                   `;
