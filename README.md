@@ -37,6 +37,12 @@ RepoReport is a powerful tool designed to provide valuable insights about any Gi
 
 5. Evaluate the provided information to determine whether the repository aligns with your interests and is beginner-friendly.
 
+### Project Media
+![Screenshot (126)](https://github.com/PurviSaini/RepoReport/assets/101940722/c1857d38-8447-4d9e-bc6a-d7e0a7081779)
+<br>
+![Screenshot (127)](https://github.com/PurviSaini/RepoReport/assets/101940722/1b2c63a9-6d88-4719-bdbb-059841c7229a)
+
+
 ### License
 
 RepoReport is open-source software licensed under the [MIT License](https://opensource.org/licenses/MIT).
