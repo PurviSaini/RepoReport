@@ -68,6 +68,8 @@ function fetchRepoStats() {
         loader.style.display = "none";
         document.getElementById("section").classList.remove("height-change");
         document.getElementById("readme").classList.add("border");
+        document.getElementById("readme").style.overflow="scroll";
+        document.getElementById("repoName").classList.add("gradient-border");
         document.getElementById("statsContainer").classList.add("border");
   
         const statsContainer = document.getElementById("statsContainer");
