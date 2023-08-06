@@ -1,3 +1,4 @@
+const converter = new showdown.Converter();
 function fetchRepoStats() {
     const repoUrlInput = document.getElementById("repoUrl");
     const repoUrl = repoUrlInput.value.trim();
@@ -92,12 +93,13 @@ function fetchRepoStats() {
                 repository.goodFirstIssues.totalCount,
             },
           ];
-          statsContainer.innerHTML="";
+          let md = repository.object.text;
           let readmeContent = repository.object
-            ? repository.object.text
+            ? converter.makeHtml(md)
             : "No README.md found.";
           document.getElementById("readme").innerHTML = readmeContent;
-  
+          
+          statsContainer.innerHTML="";
           //loop to add each stat
           stats.forEach((obj) => {
             for (let key in obj) {
